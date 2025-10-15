@@ -78,6 +78,10 @@ h1 {
     transform: translate(-50%, -50%);
 }
 
+.descricao {
+    z-index: 10;
+}
+
 footer{
    color: var(--secundary-color);
    text-align: center;
