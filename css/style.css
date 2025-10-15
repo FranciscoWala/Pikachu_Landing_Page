@@ -2,19 +2,31 @@
     --primary-color: #F5CF06;
     --secundary-color:#8E4106;
 }
+
 body{
     flex-direction: column;
     display: flex;
     height: 100vh;
+    padding: 70px;
     background-color:  var(--primary-color);
+    font-family: Righteous, sans-serif;
 }
+
 header{
-    background-color: red;
+    display: flex;
+    align-items: center;
+    gap: 16px;
 }
+header span{
+    color: var(--secundary-color);
+    font-size: 32px;
+}
+
 main{
     background-color: #fafafa;
     flex-grow: 1;
 }
+
 footer{
     background-color: green;
 }
