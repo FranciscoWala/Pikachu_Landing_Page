@@ -1,9 +1,9 @@
-:root{
+:root {
     --primary-color: #F5CF06;
     --secundary-color:#8E4106;
 }
 
-body{
+body {
     flex-direction: column;
     display: flex;
     height: 100vh;
@@ -12,21 +12,73 @@ body{
     font-family: Righteous, sans-serif;
 }
 
-header{
+header {
     display: flex;
     align-items: center;
     gap: 16px;
 }
-header span{
+header span {
     color: var(--secundary-color);
     font-size: 32px;
 }
 
-main{
-    background-color: #fafafa;
+main {
+    display: flex;
+    flex-direction: column;
     flex-grow: 1;
+}
+.sombra {
+    position: absolute;
+    font-size: 400px;
+    color: #ffffff55;
+    z-index: -999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+}
+h1 {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    font-size: 300px;
+    color: white;
+}
+.container {
+    color: var(--secundary-color);
+    height: 154px;
+    padding-bottom: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.container h2 {
+    font-size: 64px;
+}
+.container p {
+    font-size: 20px;
+    width: 500px;
+}
+.container a {
+    width: 411px;
+    height: 100px;
+    font-size: 48px;
+    background-color: var(--secundary-color);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Pikachu {
+    position: absolute;
+    z-index: 7;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 footer{
-    background-color: green;
+   color: var(--secundary-color);
+   text-align: center;
 }
