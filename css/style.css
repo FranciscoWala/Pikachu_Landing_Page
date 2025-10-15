@@ -1,0 +1,20 @@
+:root{
+    --primary-color: #F5CF06;
+    --secundary-color:#8E4106;
+}
+body{
+    flex-direction: column;
+    display: flex;
+    height: 100vh;
+    background-color:  var(--primary-color);
+}
+header{
+    background-color: red;
+}
+main{
+    background-color: #fafafa;
+    flex-grow: 1;
+}
+footer{
+    background-color: green;
+}
