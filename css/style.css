@@ -1,10 +1,14 @@
+
 :root {
+    /* Aqui foi colocada as variáveis por necessidade de implementar no projeto global */
     --primary-color: #F5CF06;
     --secundary-color:#8E4106;
 }
 
 body {
+    /* Utilizei flex column para fazer os elementos ficarem abaixo do outro */
     flex-direction: column;
+    /* Posssibilitar a mudança nos demais elementos que precisam ser movidos */
     display: flex;
     height: 100vh;
     padding: 70px;
